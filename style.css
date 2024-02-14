@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.banner-wrapper {
+    display: flex;
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    gap: 25px;
+}
+
+.banner-img {
+    visibility: hidden;
+    width: 50%;
+}
+
+.banner-content h2 {
+    font-size: 65px;
+}
+
+.contact-btn {
+    font-size: 20px;
+    color: white;
+    background-color: #F15B22;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
