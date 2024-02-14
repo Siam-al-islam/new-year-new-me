@@ -6,7 +6,7 @@
 
 .banner-wrapper {
     display: flex;
-    background-image: url(images/banner/banner1.png);
+    background-image: url("images/banner/banner1.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 100% 100%;
@@ -28,7 +28,7 @@
     font-size: 65px;
 }
 
-.contact-btn {
+.primary-btn {
     font-size: 20px;
     color: white;
     background-color: #F15B22;
@@ -78,4 +78,22 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+/* botton banner */
+
+
+.bottom-banner {
+    padding: 60px;
+    background-image: url("images/gradient1.png"), url("images/watch.png");
+    background-repeat: no-repeat;
+}
+
+.bottom-banner-details {
+    width: fit-content;
+}
+
+.bottom-banner-details h3 {
+    font-size: 40px;
+    margin-bottom: 24px;
 }
