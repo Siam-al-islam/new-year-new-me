@@ -37,3 +37,23 @@
     border: 0;
     cursor: pointer;
 }
+
+/* failure-section */
+
+.failure-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 300px;
+    gap: 85px;
+}
+
+.failure-section h3 {
+    font-size: 40px;
+}
+
+.failure-section-description {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
